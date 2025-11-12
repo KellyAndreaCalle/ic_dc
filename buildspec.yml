@@ -6,7 +6,7 @@ phases:
     # Asegura que CodeBuild tenga Java 17 y Docker 20 instalados
     runtime-versions:
       java: corretto17
-      docker: 20
+
   
   pre_build:
     commands:
